@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "940348927071",
+    "firebase_url": "https://myanchord.firebaseio.com",
+    "project_id": "myanchord",
+    "storage_bucket": "myanchord.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940348927071:android:f68b0b89eaea67a6653fea",
+        "android_client_info": {
+          "package_name": "com.myanchord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940348927071-60eneoskv1jvalh8uven3qn0ri30lulv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ5h5r_zenJ2Y6VeZFpN97V8BHCVj3Ij8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940348927071-60eneoskv1jvalh8uven3qn0ri30lulv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "940348927071-hfg83h4ujk53t5ifi1bq7hdvom8osv8s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hero.chordapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940348927071:android:1c452886b9b8dbd6653fea",
+        "android_client_info": {
+          "package_name": "com.reactnativefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940348927071-gqhqq6m826c46eqf43ba9eerjth1k2il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactnativefirebase",
+            "certificate_hash": "cbe238710fdab7229454b35e6652c284b34d471e"
+          }
+        },
+        {
+          "client_id": "940348927071-60eneoskv1jvalh8uven3qn0ri30lulv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ5h5r_zenJ2Y6VeZFpN97V8BHCVj3Ij8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940348927071-60eneoskv1jvalh8uven3qn0ri30lulv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "940348927071-hfg83h4ujk53t5ifi1bq7hdvom8osv8s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hero.chordapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
