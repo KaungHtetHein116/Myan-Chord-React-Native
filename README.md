@@ -9,3 +9,5 @@
 * react-native-image-viewing
 * redux
 * react-redux
+
+[CLICK HERE](https://www.youtube.com/watch?v=-G_6FOa4FeI) to see showcase of demo app
