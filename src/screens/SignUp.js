@@ -10,7 +10,6 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from 'react-native';
-import {Avatar, Accessory} from 'react-native-elements';
 
 const SignUp = (props) => {
   const [name, setName] = useState('Jack King');
@@ -107,14 +106,19 @@ const SignUp = (props) => {
         />
       </View>
       {errorShown()}
-      <TouchableOpacity style={styles.loginBtn} onPress={handleSubmit}>
+      <TouchableOpacity
+        style={styles.loginBtn}
+        onPress={handleSubmit}
+        activeOpacity={0.8}>
         {props.loading ? (
           <ActivityIndicator color="white" />
         ) : (
           <Text style={{color: 'white'}}>SIGNUP</Text>
         )}
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => props.navigation.push('LogIn')}>
+      <TouchableOpacity
+        onPress={() => props.navigation.push('LogIn')}
+        activeOpacity={0.8}>
         <Text style={styles.loginText}>Login</Text>
       </TouchableOpacity>
     </View>

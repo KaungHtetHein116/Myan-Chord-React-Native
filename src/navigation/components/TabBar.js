@@ -9,7 +9,7 @@ export default function TabBar({state, navigation}) {
   const {routes} = state;
 
   const renderColor = (currentTab) =>
-    currentTab === selected ? 'blue' : 'black';
+    currentTab === selected ? 'dodgerblue' : 'black';
 
   const handlePress = (activeTab, index) => {
     if (state.index !== index) {
@@ -36,7 +36,7 @@ export default function TabBar({state, navigation}) {
 
 const styles = StyleSheet.create({
   wrapper: {
-    bottom: 20,
+    bottom: 10,
     width,
     alignItems: 'center',
     justifyContent: 'center',
@@ -45,8 +45,9 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    height: 50,
     width: 250,
-    backgroundColor: '#86c4fd',
+    backgroundColor: '#d1eaff',
     borderRadius: 100,
     elevation: 7,
   },

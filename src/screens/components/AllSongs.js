@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {View, FlatList, StyleSheet} from 'react-native';
 import {Like, Unlike} from '../../redux/actions/DataAction';
 import {GetSongData} from '../../redux/actions/DataAction';

@@ -3,8 +3,8 @@ import {View, Text} from 'react-native';
 
 export default function Tuner() {
   return (
-    <View>
-      <Text>Guitar Tuner</Text>
+    <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
+      <Text>For Future Improvement</Text>
     </View>
   );
 }

@@ -14,6 +14,8 @@ const ArtistSong = (props) => {
   const [refreshHeartButton, setRefreshHeartButton] = useState(true);
   const {favorite, email} = props.userData.user;
 
+  // console.log(props.Data.artistFilter);
+
   useEffect(() => {
     props.fetchArtistFilter(artist);
   }, []);
@@ -77,18 +79,20 @@ const ArtistSong = (props) => {
         contentContainerStyle={styles.scrollViewContentContainer}
         scrollEventThrottle={8} // target 120fps
       >
-        <FlatList
-          data={props.Data.artistFilter}
-          keyExtractor={(item, index) => index.toString()}
-          renderItem={({item}) => (
-            <Card
-              item={item}
-              heartButton={heartButton}
-              onAdd={onAdd}
-              onRemove={onRemove}
-            />
-          )}
-        />
+        <View style={{flex: 1, paddingBottom: 600}}>
+          <FlatList
+            data={props.Data.artistFilter}
+            keyExtractor={(item, index) => index.toString()}
+            renderItem={({item}) => (
+              <Card
+                item={item}
+                heartButton={heartButton}
+                onAdd={onAdd}
+                onRemove={onRemove}
+              />
+            )}
+          />
+        </View>
       </Animated.ScrollView>
     </View>
   );

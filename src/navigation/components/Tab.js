@@ -6,8 +6,7 @@ import RNBounceable from '@freakycoder/react-native-bounceable';
 export default function Tab({color, tab, onPress, icon}) {
   return (
     <RNBounceable style={styles.container} onPress={onPress}>
-      <Icon name={icon} size={20} color={color} />
-      <Text style={{color: color}}>{tab.name}</Text>
+      <Icon name={icon} size={30} color={color} />
     </RNBounceable>
   );
 }

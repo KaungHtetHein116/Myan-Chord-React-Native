@@ -51,14 +51,19 @@ function LogIn(props) {
         <Text style={styles.forgot}>Forgot Password?</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.loginBtn} onPress={handleSubmit}>
+      <TouchableOpacity
+        style={styles.loginBtn}
+        onPress={handleSubmit}
+        activeOpacity={0.8}>
         {loading ? (
           <ActivityIndicator color="white" />
         ) : (
           <Text style={{color: 'white'}}>LOGIN</Text>
         )}
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => props.navigation.push('SignUp')}>
+      <TouchableOpacity
+        onPress={() => props.navigation.push('SignUp')}
+        activeOpacity={0.8}>
         <Text style={styles.loginText}>Signup</Text>
       </TouchableOpacity>
     </View>

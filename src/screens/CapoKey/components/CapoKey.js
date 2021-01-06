@@ -11,7 +11,7 @@ class CapoKey extends Component {
     } = this.props;
 
     return (
-      <View style={{alignItems: 'center'}}>
+      <View style={{alignItems: 'center', paddingBottom: 50}}>
         <Text h3>Capo Key</Text>
         <Text h1>{keys[capoKeyIndex].key}</Text>
       </View>
